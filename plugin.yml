@@ -1,0 +1,75 @@
+name: UltimateSurvival
+main: us.iluthi.soulofw0lf.ultimatesurvival.UltimateSurvival
+version: 1.0
+author: Soulofw0lf
+description: Ultimate Survival Mode
+commands:
+  addcoins:
+    description: Add coins to a specific player.
+    usage: /<command> <playername> <amount>
+  party:
+    description: Party Command Central
+    usage: /<command> <invite|kick|accept|deny|leave>
+  guild:
+    description: Open the guild menu
+    usage: /<guild>
+  shop:
+    description: Open the shop menu
+    usage: /<shop>
+  chat:
+    description: Open the chat menu
+    usage: /<chat>
+  pm:
+    description: Send a private message to a player
+    usage: /<pm> <player name> <message>
+  r:
+    description: Respond to the last player that sent you a message
+    usage: /<r> <message>
+  kickall:
+    description: Kick all players from the server
+    usage: /<kickall>
+  report:
+    description: Report a bug to the server admins
+    usage: /<report> <message>
+  spawn:
+    description: Teleport to spawn
+    usage: /<spawn>
+  makespawner:
+    description: Make a test mob spawner
+    usage: /<makespawner>
+  accept:
+    description: Accept a friend request
+    usage: /<accept>
+  deny:
+    description: Deny a friend request
+    usage: /<deny>
+  addfriend:
+    description: Send a friend request to a player
+    usage: /<addfriend> <playername>
+  friends:
+    description: View your friends list
+    usage: /<friends>
+  gen:
+    description: Send a message to general chat without switching your active chat channel
+    usage: </gen> <message>
+  hq:
+    description: Send a message to Head Quarters chat without switching your active chat channel
+    usage: </hq> <message>
+  g:
+    description: Send a message to guild chat without switching your active chat channel
+    usage: </g> <message>
+  o:
+    description: Send a message to officer chat without switching your active chat channel
+    usage: </o> <message>
+  rec:
+    description: Send a message to recruitment chat without switching your active chat channel
+    usage: </rec> <message>
+  l:
+    description: Send a message to local chat without switching your active chat channel
+    usage: </l> <message>
+  p:
+    description: Send a message to party chat without switching your active chat channel
+    usage: </p> <message>
+  t:
+    description: Send a message to trade chat without switching your active chat channel
+    usage: </t> <message>
